@@ -1,0 +1,50 @@
+{
+  "name": "Monoara Jahur Apparels Ltd - Garments ERP",
+  "short_name": "MJAL ERP",
+  "description": "Enterprise Garments Manufacturing ERP System for Monoara Jahur Apparels Ltd.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "any",
+  "scope": "/",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Factory Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open Main Factory Dashboard",
+      "url": "/?module=dashboard",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Order Management",
+      "short_name": "Orders",
+      "description": "View & Manage Production Orders",
+      "url": "/?module=orders",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Finishing & QC",
+      "short_name": "QC Entry",
+      "description": "Log Finishing and QC records",
+      "url": "/?module=finishing",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}
